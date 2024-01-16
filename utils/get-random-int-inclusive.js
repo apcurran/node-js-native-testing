@@ -11,3 +11,7 @@ function getRandomIntInclusive(min, max) {
 
     return Math.floor(Math.random() * (maxValue - minValue + 1) + minValue);
 }
+
+module.exports = {
+    getRandomIntInclusive,
+};
