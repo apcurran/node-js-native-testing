@@ -2,6 +2,7 @@
 
 const { describe, it } = require("node:test");
 const assert = require("node:assert");
+
 const { getRandomIntInclusive } = require("../utils/get-random-int-inclusive");
 
 describe("Get random integer function", () => {
