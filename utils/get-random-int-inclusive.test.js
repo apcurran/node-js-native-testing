@@ -15,4 +15,9 @@ describe("Get random integer function", () => {
         const myTestValue = getRandomIntInclusive(10, 10);
         assert.strictEqual(myTestValue, 10);
     });
+
+    it("should get a value between 5 and 10", () => {
+        const myTestValue = getRandomIntInclusive(5, 10);
+        assert.ok(myTestValue >= 5 && myTestValue <= 10);
+    });
 });
